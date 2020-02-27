@@ -33,9 +33,9 @@ export default class Details extends Component {
                   <img src={img} className="img-fluid" alt="product" />
                 </div>
                 <div className="col-10 mx-auto col-md-6 text-capitalize my-3">
-                  <h2>model: {title}</h2>
+                  <h2>book title: {title}</h2>
                   <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                    made by: <span className="text-uppercase">{company}</span>
+                    author: <span className="text-uppercase">{company}</span>
                   </h4>
                   <h4 className="text-blue">
                     <strong>
@@ -44,13 +44,13 @@ export default class Details extends Component {
                     </strong>
                   </h4>
                   <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                    Some info about product:
+                    In the book:
                   </p>
                   <p className="text-muted lead">{info}</p>
                   {/*buttons*/}
                   <div>
                     <Link to="/">
-                      <ButtonContainer>Back to products</ButtonContainer>
+                      <ButtonContainer>Back to shopping</ButtonContainer>
                     </Link>
                     <ButtonContainer
                       cart
